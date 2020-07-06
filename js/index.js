@@ -26,8 +26,8 @@ function inicializarSlider(){
   });
 }
 /*
-  Función que reproduce el video de fondo al hacer scroll, y deteiene la reproducción al detener el scroll
-*/
+  Función que reproduce el video de fondo al hacer scroll, y detiene la reproducción al detener el scroll
+
 function playVideoOnScroll(){
   var ultimoScroll = 0,
       intervalRewind;
@@ -47,6 +47,7 @@ function playVideoOnScroll(){
       video.pause();
     }, 10)
 }
-
+*/
 inicializarSlider();
-playVideoOnScroll();
+// Comento esta funcion porque no hay video
+//playVideoOnScroll();

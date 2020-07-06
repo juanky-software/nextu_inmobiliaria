@@ -124,22 +124,57 @@ video#vidFondo {
 .divider{
   width: 100%;
 }
+
 .itemMostrado{
   width: 100%;
   margin-top: 0.4rem;
   display: flex;
   flex-flow: row wrap;
+  padding: 20px 0;
 }
 .itemMostrado img{
   width: 35% !important;
 }
-.precioTexto{
-  font-size: 1.3rem;
-  color: #ffab40;
-}
+
+
 .card-stacked{
   width: 65%;
 }
 .card-action{
   text-align: right;
+}
+
+
+/**/
+#label-ciudad{
+  top: -23px;
+}
+
+#label-tipo{
+  top: -2px;
+}
+
+.input-field select{
+  display: inline-block;
+}
+
+.textoInformacion{
+  width: 65%;
+}
+
+.textoInformacion p{
+  display: block;
+  font-size: 1.1rem;
+  color: #000;
+  padding-left: 10px;
+  margin: 0;
+}
+.precioTexto{
+  font-size: 1.3rem;
+  color: #ffab40 !important;
+  padding-top: 15px;
+}
+.textoVerMas{
+  float: right;
+  padding-right: 50px;
 }
